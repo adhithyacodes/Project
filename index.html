@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X_UA_Compatible" content="IE=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="/images/A (29).png">
+    <link rel="stylesheet" href="style.css">
+    <title>A2 Ceremonies</title>
+</head>
+
+<body>
+    <div class="banner relative ">
+        <div class="bg-blend-overlay z-20 opacity-[0.45]"></div>
+        <video autoplay loop muted plays-inline src="./images/2022395-hd_1920_1080_30fps.mp4" class="absolute top-0  -z-10 object-cover h-[100%] w-[100%] left-0"></video>
+        <div class="navbar py-4 flex justify-between  box-border">
+            <img class="logo max-md:w-[130px]" src="./images/logo.png">
+            <ul class="text-[16px] font-semibold ml-80 max-xl:ml-10">
+                <li class="outfit hover:text-[#ee5007] px-6 mx-2 inline-block  max-xl:px-4 max-lg:hidden "><a href="#">Home</a></li>
+                <li class="outfit hover:text-[#ee5007] px-6 mx-2 inline-block  max-xl:px-4 max-lg:hidden "><a href="#">About</a></li>
+                <li class="outfit hover:text-[#ee5007] px-6 mx-2 inline-block  max-xl:px-4 max-lg:hidden "><a href="#">Artists</a></li>
+                <li class="outfit hover:text-[#ee5007] px-6 mx-2 inline-block  max-xl:px-4 max-lg:hidden "><a href="#">Schedule</a></li>
+                <li class="outfit hover:text-[#ee5007] px-6 mx-2 inline-block  max-xl:px-4 max-lg:hidden "><a href="#">Pricing</a></li>
+                <li class="outfit hover:text-[#ee5007] px-6 mx-2 inline-block  max-xl:px-4 max-lg:hidden "><a href="#">Contact</a></li>
+                <li class="px-4 max-md:px-3 py-2 max-md:font-medium rounded-3xl bg-[#ee5007] inline-block max-lg:hidden"><a href="#">Order</a></li>
+            </ul>
+            <button class="lg:hidden ml-72 max-sm:ml-28" id="dropdownbutton" onclick="bar()">
+                <i class="fa-solid fa-bars text-white text-xl"></i>
+            </button>
+            <div id="down" class="hidden">
+                <div id="dropdown" class="mt-6 absolute top-16 m bg-black w-full left-0 z-30">
+                    <a href="#"
+                        class="edu font-medium m-3 ml-10 p-2 text-white block hover:text-[#ee5007]">Home</a>
+                    <a href="#"
+                        class="edu font-medium m-3 ml-10 p-2 text-white block hover:text-[#ee5007]">About</a>
+                    <a href="#"
+                        class="edu font-medium m-3 ml-10 p-2 text-white block hover:text-[#ee5007]">Artists</a>
+                    <a href="#" id="dropButton"
+                        class="edu font-medium m-3 ml-10 p-2 text-white block hover:text-[#ee5007]">Schedule</a>
+                    <a href="#" id="dropButton"
+                        class="edu font-medium m-3 ml-10 p-2 text-white block hover:text-[#ee5007]">Pricing</a>
+                    <a href="#" id="dropButton"
+                        class="edu font-medium m-3 ml-10 p-2 text-white block hover:text-[#ee5007]">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="content w-[100%] absolute text-white top-[45%] text-center">
+            <h1 class="outfit text-[72px] max-xl:text-[50px] max-sm:text-[30px]">A2 CEREMONIES</h1>
+            <div>
+                <button type="button" class="px-4 max-md:px-3 py-2 max-md:font-medium rounded-3xl bg-[#ee5007]">Order</button>
+            </div>  
+        </div>
+    </div>
+    <section>
+        <div class="flex items-center justify-center mt-10 mb-5">
+            <h1 class="oreo text-[50px] font-bold">Events</h1>
+        </div>
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 pb-10">
+            <div class="py-8">
+                <div class="img-container row-span-1 relative w-[275px] h-[400px] rounded-2xl m-auto overflow-hidden  ">
+                    <img class="w-[100%] h-[100%] object-cover " src="./images/bdy.webp">
+                    <div class="overlay flex align items-center text-center p-5 absolute top-0 left-0 w-[100%] h-[100%] bg-black/60 ">
+                        <h1 class="oreo text-[45px] m-auto font-bold text-white">Birthday</h1>
+                    </div>
+                </div>
+                <h5 class="oreo text-[35px] flex items-center justify-center font-bold">Birthday</h5>
+            </div>
+            <div class="py-8">
+                <div class="img-container row-span-1 relative w-[275px] h-[400px] rounded-2xl m-auto overflow-hidden  ">
+                    <img class="w-[100%] h-[100%] object-cover " src="./images/anniversary.jpg">
+                    <div class="overlay flex align items-center text-center p-5 absolute top-0 left-0 w-[100%] h-[100%] bg-black/60 ">
+                        <h1 class="oreo text-[45px] flex  font-bold text-white">Anniversary</h1>
+                    </div>
+                </div>
+                <h5 class="oreo text-[35px] flex items-center justify-center font-bold">Anniversary</h5>
+            </div>
+            <div class="py-8">
+                <div class="img-container row-span-1 relative w-[275px] h-[400px] rounded-2xl m-auto overflow-hidden  ">
+                    <img class="w-[100%] h-[100%] object-cover " src="./images/bdy.webp">
+                    <div class="overlay flex align items-center text-center p-5 absolute top-0 left-0 w-[100%] h-[100%] bg-black/60 ">
+                        <h1 class="oreo text-[45px] m-auto font-bold text-white">School Function</h1>
+                    </div>
+                </div>
+                <h5 class="oreo text-[35px] flex items-center justify-center font-bold">School Function</h5>
+            </div>
+        </div>
+        <div class="grid xl:grid-cols-2 lg:grid-cols-1 px-16 max-lg:px-10 max-md:px-0 my-8 mx-2">
+            <div class="py-8">
+                <h5 class="oreo text-[40px] flex items-center justify-center font-bold">Design-1</h5>
+                <div class="img-container row-span-1 relative w-[600px] h-[400px] max-md:w-[300px] max-md:h-[200px] rounded-2xl m-auto overflow-hidden ">
+                    <img class="w-[100%] h-[100%] object-cover " src="./images/bdy.webp">
+                    <div class="overlay flex align items-center text-center p-5 absolute top-0 left-0 w-[100%] h-[100%] bg-black/60 ">
+                        <h1 class="oreo text-[45px] m-auto font-bold text-white">Name</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="py-8">
+                <h5 class="oreo text-[40px] flex items-center justify-center font-bold">Design-2</h5>
+                <div class="img-container row-span-1 relative w-[600px] h-[400px] max-md:w-[300px] max-md:h-[200px] rounded-2xl m-auto overflow-hidden ">
+                    <img class="w-[100%] h-[100%] object-cover " src="./images/bdy.webp">
+                    <div class="overlay flex align items-center text-center p-5 absolute top-0 left-0 w-[100%] h-[100%] bg-black/60 ">
+                        <h1 class="oreo text-[45px] m-auto font-bold text-white">Photo</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="py-8">
+                <h5 class="oreo text-[40px] flex items-center justify-center font-bold">Design-3</h5>
+                <div class="img-container row-span-1 relative w-[600px] h-[400px] max-md:w-[300px] max-md:h-[200px] rounded-2xl m-auto overflow-hidden ">
+                    <img class="w-[100%] h-[100%] object-cover " src="./images/bdy.webp">
+                    <div class="overlay flex align items-center text-center p-5 absolute top-0 left-0 w-[100%] h-[100%] bg-black/60 ">
+                        <h1 class="oreo text-[45px] m-auto font-bold text-white">Name</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="py-8">
+                <h5 class="oreo text-[40px] flex items-center justify-center font-bold">Design-4</h5>
+                <div class="img-container row-span-1 relative w-[600px] h-[400px] max-md:w-[300px] max-md:h-[200px] rounded-2xl m-auto overflow-hidden ">
+                    <img class="w-[100%] h-[100%] object-cover " src="./images/bdy.webp">
+                    <div class="overlay flex align items-center text-center p-5 absolute top-0 left-0 w-[100%] h-[100%] bg-black/60 ">
+                        <h1 class="oreo text-[45px] m-auto font-bold text-white">photo</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h1 class="oreo text-[45px] font-bold flex justify-center">Selected photo Design</h1>
+            <div class="grid lg:grid-cols-4 md:grid-cols-2 pb-10">
+                <div class="py-8">
+                    <div class="img-container relative  w-[250px] h-[300px] rounded-2xl m-auto overflow-hidden  ">
+                        <img class="w-[100%] h-[100%] object-cover " src="./images/bdy.webp">
+                    </div>
+                    <h5 class="oreo text-[30px] flex items-center justify-center font-bold">Model-1</h5>
+                </div>
+                <div class="py-8">
+                    <div class="img-container relative  w-[250px] h-[300px] rounded-2xl m-auto overflow-hidden  ">
+                        <img class="w-[100%] h-[100%] object-cover " src="./images/anniversary.jpg">
+                    </div>
+                    <h5 class="oreo text-[30px] flex items-center justify-center font-bold">Model-2</h5>
+                </div>
+                <div class="py-8">
+                    <div class="img-container relative  w-[250px] h-[300px] rounded-2xl m-auto overflow-hidden  ">
+                        <img class="w-[100%] h-[100%] object-cover " src="./images/bdy.webp">
+                    </div>
+                    <h5 class="oreo text-[30px] flex items-center justify-center font-bold"> Model-3</h5>
+                </div>
+                <div class="py-8">
+                    <div class="img-container relative  w-[250px] h-[300px] rounded-2xl m-auto overflow-hidden  ">
+                        <img class="w-[100%] h-[100%] object-cover " src="./images/bdy.webp">
+                    </div>
+                    <h5 class="oreo text-[30px] flex items-center justify-center font-bold">Model-4</h5>
+                </div>
+                <div class="py-8">
+                    <div class="img-container relative  w-[250px] h-[300px] rounded-2xl m-auto overflow-hidden  ">
+                        <img class="w-[100%] h-[100%] object-cover " src="./images/bdy.webp">
+                    </div>
+                    <h5 class="oreo text-[30px] flex items-center justify-center font-bold">Model-5</h5>
+                </div>
+                <div class="py-8">
+                    <div class="img-container relative  w-[250px] h-[300px] rounded-2xl m-auto overflow-hidden  ">
+                        <img class="w-[100%] h-[100%] object-cover " src="./images/bdy.webp">
+                    </div>
+                    <h5 class="oreo text-[30px] flex items-center justify-center font-bold">Model-6</h5>
+                </div>
+                <div class="py-8">
+                    <div class="img-container relative  w-[250px] h-[300px] rounded-2xl m-auto overflow-hidden  ">
+                        <img class="w-[100%] h-[100%] object-cover " src="./images/bdy.webp">
+                    </div>
+                    <h5 class="oreo text-[30px] flex items-center justify-center font-bold">Model-7</h5>
+                </div>
+                <div class="py-8">
+                    <div class="  relative w-[250px] h-[300px] rounded-2xl m-auto overflow-hidden  ">
+                        <img class="w-[100%] h-[100%] object-cover  " src="./images/bdy.webp">
+                    </div>
+                    <h5 class="oreo text-[30px] flex items-center justify-center font-bold">Model-8</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
